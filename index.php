@@ -228,7 +228,7 @@ switch (ENVIRONMENT)
 	// Name of the "system" directory
 	define('SYSDIR', basename(BASEPATH));
 
-	// The path to the "application" directory
+	// The path to the "application" directory is created by saquib rizwaz
 	if (is_dir($application_folder))
 	{
 		if (($_temp = realpath($application_folder)) !== FALSE)
